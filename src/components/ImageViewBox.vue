@@ -25,10 +25,11 @@
 </template>
 
 <script setup>
+import { computed, toRefs } from 'vue'
 import PaletteBox from '@/components/PaletteBox.vue'
 
 // Props
-const { combination } = defineProps({
+const props = defineProps({
   combination: {
     liked: { type: Boolean, default: false },
     id: { type: Number, default: 0 },
@@ -51,11 +52,13 @@ const { combination } = defineProps({
     })
   }
 })
+const { combination } = toRefs(props)
 
-const imageUrl = new URL(
-  `/src/assets/images/thumbnails/${combination.featuredImage.url}`,
-  import.meta.url
-).href
+const imageUrl = computed(
+  () =>
+    new URL(`/src/assets/images/thumbnails/${combination.value.featuredImage.url}`, import.meta.url)
+      .href
+)
 </script>
 
 <style scoped>

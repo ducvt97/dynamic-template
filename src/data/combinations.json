@@ -125,7 +125,7 @@
         {
           "id": 2571,
           "name": "Rosy Flamingo",
-          "slug": "rosy-flamingo",
+          "slug": "cherry-blossom-swirl",
           "colors": ["#e8b4b8", "#eed6d3", "#a49393", "#67595e"],
           "likes": 47048,
           "liked": false
@@ -133,7 +133,7 @@
         {
           "id": 1367,
           "name": "Power Up",
-          "slug": "power-up",
+          "slug": "rosy-afters",
           "colors": ["#000000", "#900020", "#e9ddd4", "#e9ddd4"],
           "likes": 2114,
           "liked": false
@@ -149,7 +149,7 @@
         {
           "id": 1292,
           "name": "Rose Petals",
-          "slug": "rose-petals",
+          "slug": "sunlit-eggplant",
           "colors": ["#3b0404", "#deb3ad", "#de847b", "#b95c50"],
           "likes": 6511,
           "liked": false
@@ -207,7 +207,7 @@
         {
           "id": 2140,
           "name": "Cool Berry Scoop",
-          "slug": "cool-berry-scoop",
+          "slug": "pastel-blonde",
           "colors": ["#ffa3b8", "#f7d6d0", "#fc3c80", "#821d30"],
           "likes": 2340,
           "liked": false
@@ -215,7 +215,7 @@
         {
           "id": 609,
           "name": "Red Beanie Practise Activity",
-          "slug": "red-beanie-practise-activity",
+          "slug": "rosy-dew",
           "colors": ["#ba0f30", "#2f2440", "#c6b79b", "#ff2511"],
           "likes": 4142,
           "liked": false
@@ -223,7 +223,7 @@
         {
           "id": 393,
           "name": "Petal Party",
-          "slug": "petal-party",
+          "slug": "rosy-afters",
           "colors": ["#f2c5e0", "#d43790", "#ec8fd0", "#870a30"],
           "likes": 7958,
           "liked": false
@@ -231,7 +231,7 @@
         {
           "id": 498,
           "name": "Buddhist Monk",
-          "slug": "buddhist-monk",
+          "slug": "clusters-of-beauty",
           "colors": ["#fbdd00", "#e9a200", "#b32800", "#7f0000"],
           "likes": 1270,
           "liked": false
@@ -239,7 +239,7 @@
         {
           "id": 3368,
           "name": "Stepping Stones",
-          "slug": "stepping-stones",
+          "slug": "cherry-blossom-swirl",
           "colors": ["#e4e5e8", "#53565a", "#4d0011", "#4b443c"],
           "likes": 1248,
           "liked": false
@@ -289,7 +289,7 @@
         {
           "id": 1618,
           "name": "Raspberry Cream",
-          "slug": "raspberry-cream",
+          "slug": "clusters-of-beauty",
           "colors": ["#ae388b", "#5df15d", "#e983d8", "#f9b4f6"],
           "likes": 2063,
           "liked": false
@@ -297,7 +297,7 @@
         {
           "id": 3915,
           "name": "Sweet Cotton Sugar",
-          "slug": "sweet-cotton-sugar",
+          "slug": "sunlit-eggplant",
           "colors": ["#efebe0", "#fb8da0", "#fb6b90", "#fb4570"],
           "likes": 12055,
           "liked": false
@@ -305,7 +305,7 @@
         {
           "id": 393,
           "name": "Petal Party",
-          "slug": "petal-party",
+          "slug": "trees-in-bloom",
           "colors": ["#f2c5e0", "#d43790", "#ec8fd0", "#870a30"],
           "likes": 7958,
           "liked": false
@@ -313,7 +313,7 @@
         {
           "id": 849,
           "name": "Cupcake Delight",
-          "slug": "cupcake-delight",
+          "slug": "rosy-dew",
           "colors": ["#ebe0d0", "#ec9ec0", "#ff0080", "#a91b60"],
           "likes": 9114,
           "liked": false
@@ -321,7 +321,7 @@
         {
           "id": 2743,
           "name": "Spike of Mint",
-          "slug": "spike-of-mint",
+          "slug": "pastel-blonde",
           "colors": ["#7cf3a0", "#b4f8c8", "#ff75d8", "#ff45b5"],
           "likes": 2381,
           "liked": false
@@ -391,6 +391,22 @@
           "colors": ["#ffc5d0", "#f7d6d0", "#fb6090", "#821d30"],
           "likes": 10324,
           "liked": false
+        },
+        {
+          "id": 849,
+          "name": "Cupcake Delight",
+          "slug": "rosy-dew",
+          "colors": ["#ebe0d0", "#ec9ec0", "#ff0080", "#a91b60"],
+          "likes": 9114,
+          "liked": false
+        },
+        {
+          "id": 2743,
+          "name": "Spike of Mint",
+          "slug": "pastel-blonde",
+          "colors": ["#7cf3a0", "#b4f8c8", "#ff75d8", "#ff45b5"],
+          "likes": 2381,
+          "liked": false
         }
       ]
     },
@@ -437,7 +453,7 @@
         {
           "id": 655,
           "name": "Wild Orchid",
-          "slug": "wild-orchid",
+          "slug": "rosy-dew",
           "colors": ["#005437", "#debad6", "#340744", "#741aac"],
           "likes": 2496,
           "liked": false
@@ -445,7 +461,7 @@
         {
           "id": 128,
           "name": "Icy Gradient",
-          "slug": "icy-gradient",
+          "slug": "cherry-blossom-swirl",
           "colors": ["#eeb5eb", "#c26dbc", "#c8f4f9", "#3cacae"],
           "likes": 9930,
           "liked": false
@@ -453,7 +469,7 @@
         {
           "id": 650,
           "name": "Sweet Orchid",
-          "slug": "sweet-orchid",
+          "slug": "trees-in-bloom",
           "colors": ["#a3c14a", "#6d8343", "#d103d1", "#6E3562"],
           "likes": 681,
           "liked": false
@@ -461,7 +477,7 @@
         {
           "id": 674,
           "name": "Powder Eye Shadow",
-          "slug": "powder-eye-shadow",
+          "slug": "pastel-blonde",
           "colors": ["#6e3562", "#b464a3", "#cf045a", "#6e676a"],
           "likes": 102,
           "liked": false
@@ -469,7 +485,7 @@
         {
           "id": 691,
           "name": "Pasture of Dreams",
-          "slug": "pasture-of-dreams",
+          "slug": "rosy-afters",
           "colors": ["#d3b1c2", "#c197d2", "#211522", "#613659"],
           "likes": 9129,
           "liked": false
@@ -519,7 +535,7 @@
         {
           "id": 712,
           "name": "Cool Cream Strawberry",
-          "slug": "cool-cream-strawberry",
+          "slug": "clusters-of-beauty",
           "colors": ["#e7625f", "#c85250", "#f7bec0", "#e9eae0"],
           "likes": 5232,
           "liked": false
@@ -543,7 +559,7 @@
         {
           "id": 1117,
           "name": "Pomegranate Crush",
-          "slug": "pomegranate-crush",
+          "slug": "sunlit-eggplant",
           "colors": ["#dc4731", "#fff3d9", "#b8390e", "#3b0918"],
           "likes": 3225,
           "liked": false
@@ -551,7 +567,7 @@
         {
           "id": 704,
           "name": "Sweet Frost Lips",
-          "slug": "sweet-frost-lips",
+          "slug": "trees-in-bloom",
           "colors": ["#fbe7e0", "#f9e4d0", "#ecc0b0", "#9c3940"],
           "likes": 1740,
           "liked": false

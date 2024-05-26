@@ -4,17 +4,13 @@
     <div class="w-100 mt-12">
       <h2 class="text-center mb-5">Related Combinations</h2>
       <div class="related-combinations">
-        <div
-          v-for="item in relatedCombinations"
-          class="palette-box"
-          @click="onSelectPalette(item.colors)"
-        >
+        <RouterLink :to="`/${item.slug}`" v-for="item in relatedCombinations" class="palette-box">
           <div
             v-for="color in item.colors"
             class="palette-box__color"
             :style="{ backgroundColor: color }"
           />
-        </div>
+        </RouterLink>
         <v-btn variant="tonal" height="75" class="flex-grow-1" flat @click="onLoadMore">
           See more combinations
         </v-btn>
@@ -32,8 +28,8 @@
 </template>
 
 <script setup>
-import { ref, onBeforeMount, provide, computed } from 'vue'
-import { useRoute } from 'vue-router'
+import { ref, onBeforeMount, provide, computed, watch } from 'vue'
+import { RouterLink, useRoute } from 'vue-router'
 
 import ImageViewBox from '@/components/ImageViewBox.vue'
 import { getCombinationById, getMoreRelatedCombinations } from '@/services/combination'
@@ -45,7 +41,7 @@ const themeStore = useThemeStore()
 
 // Query
 const route = useRoute()
-const combinationId = route.params.id ?? ''
+const combinationId = ref(route.params.id ?? '')
 
 // State
 const combination = ref({})
@@ -56,11 +52,11 @@ const btnTextColor = computed(() => getContrastColor(themeStore.theme))
 
 // Lifecycle
 const fetchCombination = () => {
-  if (!combinationId) {
+  if (!combinationId.value) {
     console.error('Combination ID is not provided')
     return
   }
-  const res = getCombinationById(combinationId)
+  const res = getCombinationById(combinationId.value)
   if (!res) {
     console.error('Combination not found')
     return
@@ -75,6 +71,17 @@ const fetchCombination = () => {
 onBeforeMount(() => {
   fetchCombination()
 })
+
+// Watcher
+watch(
+  () => route.params.id,
+  (id) => {
+    combinationId.value = id
+    fetchCombination()
+    // console.log(combination.value.featuredImage)
+  },
+  { immediate: true }
+)
 
 // Methods
 const onSelectPalette = (palette) => {
