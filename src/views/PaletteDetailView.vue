@@ -20,7 +20,7 @@
       Use this color template and create beautiful designs and documents!
     </h2>
     <RouterLink to="/" class="mx-auto">
-      <v-btn variant="tonal" :color="themeStore.theme" flat>
+      <v-btn variant="flat" :color="themeStore.theme" flat>
         <span :style="{ color: btnTextColor }">Browse templates</span>
       </v-btn>
     </RouterLink>
